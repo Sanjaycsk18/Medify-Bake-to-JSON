@@ -69,8 +69,8 @@ This project demonstrates how to use Dash, a web framework for Python, to create
 
 **Additional Notes:**
 
-* This project is a basic example and can be extended to include features like:
-   - Support for different image formats.
-   - Error handling for invalid images or API failures.
-   - More advanced recipe parsing and formatting.
 * Remember to replace `"INSERT_INPUT_HERE"` in `ai.py` with an empty string or any other relevant prompt for the model.
+
+### Screenshots
+
+![Result](/assets/results.jpeg)
