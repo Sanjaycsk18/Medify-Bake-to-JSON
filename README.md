@@ -65,7 +65,7 @@ This project demonstrates how to use Dash, a web framework for Python, to create
 
 7. **Access the application:**
 
-   Open http://localhost:8050 in your web browser to interact with the recipe extraction app.
+   Open  ```bash http://localhost:8050``` in your web browser to interact with the recipe extraction app.
 
 **Additional Notes:**
 
