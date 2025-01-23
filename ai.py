@@ -57,14 +57,9 @@ model = genai.GenerativeModel(
   generation_config=generation_config,
 )
 
-# TODO Make these files available on the local file system
-# You may need to update the file paths
 def process_image(image_path):
 
-  # files = [
-  #   upload_to_gemini("./img/image_croissant.jpeg", mime_type="image/jpeg"),
-  # ]
-  
+
 
   chat_session = model.start_chat(
     history=[

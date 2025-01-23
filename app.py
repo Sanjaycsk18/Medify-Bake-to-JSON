@@ -2,8 +2,6 @@ from dash import Dash, html, dcc, Input, Output, State
 import base64
 from ai import process_image
 
-
-
 app = Dash(__name__)
 
 def serve_layout():
@@ -65,19 +63,12 @@ def display_recipe(contents,filename,date):
         recipe=process_image(image_path)
         print(recipe)
 
-        # os.remove(image_path)  # Clean up temporary file
 
         return [
             html.H3(recipe['title']),
             html.H4("Ingredients"),
             html.Ol([html.Li(f'{i["name"]}-{i["quantity"]}') for i in recipe['ingredients']]),
 
-
-            # dash_table.DataTable(
-            #     data=[{'Ingredient': i['name'], 'Quantity': i['quantity']} for i in recipe['ingredients']],
-            #     columns=[{'name': 'Ingredient', 'id': 'Ingredient'}, {'name': 'Quantity', 'id': 'Quantity'}],
-            #     style_table={'overflowX': 'auto'},
-            # ),
             html.H4("Instructions"),
             html.Ol([html.Li(i) for i in recipe['instructions']])
         ]

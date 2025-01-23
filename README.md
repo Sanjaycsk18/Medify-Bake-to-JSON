@@ -67,10 +67,6 @@ This project demonstrates how to use Dash, a web framework for Python, to create
 
    Open  ```http://localhost:8050``` in your web browser to interact with the recipe extraction app.
 
-**Additional Notes:**
-
-* Remember to replace `"INSERT_INPUT_HERE"` in `ai.py` with an empty string or any other relevant prompt for the model.
-
 ### Screenshots
 
 ![Result](/assets/results.jpeg)
