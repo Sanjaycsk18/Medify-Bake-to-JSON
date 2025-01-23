@@ -48,7 +48,7 @@ This project demonstrates how to use Dash, a web framework for Python, to create
   - This interface allows users to generate regex they wanted.
   - The web interface can be accessed at `http://localhost:8050/`.
   - The env vars `PORT` can be used to change the port on which the application runs.
-  -
+  
 4. **Dockerization of Application:**
   - For the application, as base image `python:3.12-alpine` was used.
   - Dependencies required are listed in the `requirements.txt` file.
