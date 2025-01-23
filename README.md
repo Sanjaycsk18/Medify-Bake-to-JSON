@@ -48,26 +48,14 @@ This project demonstrates how to use Dash, a web framework for Python, to create
   - This interface allows users to generate regex they wanted.
   - The web interface can be accessed at `http://localhost:8050/`.
   - The env vars `PORT` can be used to change the port on which the application runs. 
-5. **Dockerization of Application:**
-  - For the application, as base image `python:3.12-alpine` was used.
-  - Dependencies required are listed in the `requirements.txt` file.
-  - The Dockerfile was created to install the necessary dependencies and run the application.
-  The Docker image was built with the following command:
-  ```bash
-    docker build -t regex-wizard .
-  ```
-### Running the Application
 
-1. **Get the API Key:**
-    - Get the API key from the ai studio website.
-
-2. **Build the Docker image:**
+5. **Build the Docker image:**
 
    ```bash
    docker build -t bake-to-json .
    ```
 
-3. **Run the Docker container:**
+6. **Run the Docker container:**
 
    ```bash
    docker run -p 8050:8050 bake-to-json
@@ -75,7 +63,7 @@ This project demonstrates how to use Dash, a web framework for Python, to create
 
    This will start the Dash application on port 8050.
 
-4. **Access the application:**
+7. **Access the application:**
 
    Open http://localhost:8050 in your web browser to interact with the recipe extraction app.
 
