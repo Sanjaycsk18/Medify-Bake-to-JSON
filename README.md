@@ -37,7 +37,7 @@ This project demonstrates how to use Dash, a web framework for Python, to create
 **Steps:**
 
 1. **Select Prompt:**
-    For this assessment, the prompt under the name "Bake to JSON" was selected from the prompt library. ![prompt image]()
+    For this assessment, the prompt under the name "Bake to JSON" was selected from the prompt library. 
 2. **Obtain the Code:**
     The code was obtained from ai studio, by using the "Get Code" option. The code was the pasted int a python file named [`ai.py`](./ai.py).
 3. **Obtain API KEY:**
@@ -58,10 +58,10 @@ This project demonstrates how to use Dash, a web framework for Python, to create
 6. **Run the Docker container:**
 
    ```bash
-   docker run -p 8050:8050 bake-to-json
+   docker run -p 8050:8050 -e GEMINI_API_KEY=<API_KEY> bake-to-json
    ```
-
-   This will start the Dash application on port 8050.
+   - Replace <API_KEY> with the API key obtained from the ai studio website.
+   - This will start the Dash application on port 8050.
 
 7. **Access the application:**
 
