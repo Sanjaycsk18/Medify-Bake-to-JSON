@@ -43,13 +43,12 @@ This project demonstrates how to use Dash, a web framework for Python, to create
 3. **Obtain API KEY:**
     - The API key was obtained from the ai studio website.
     - The API key was used under the name `GEMINI_API_KEY` in the code.
-3. **Develop the Web Interface:**
+4. **Develop the Web Interface:**
   - Created a web interface using Python with Dash.
   - This interface allows users to generate regex they wanted.
   - The web interface can be accessed at `http://localhost:8050/`.
-  - The env vars `PORT` can be used to change the port on which the application runs.
-  
-4. **Dockerization of Application:**
+  - The env vars `PORT` can be used to change the port on which the application runs. 
+5. **Dockerization of Application:**
   - For the application, as base image `python:3.12-alpine` was used.
   - Dependencies required are listed in the `requirements.txt` file.
   - The Dockerfile was created to install the necessary dependencies and run the application.
